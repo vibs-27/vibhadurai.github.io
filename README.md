@@ -1,17 +1,10 @@
 # vibhadurai.github.io
 
-## Projects
-### Project 1
-- Description
-- [Portfolio](https://dashing-zoo-35d.notion.site/Vibha-Duraikkannan-15efdd010c4d80469a55ecb271d67b92)
+Source for my GitHub Pages portfolio (Digital Fabrication).  
+Live site: https://vibhadurai.github.io
 
-### Project 2
-- Description
-- Links
+## Quick links
+- About: /about/
+- Portfolio Archive: /archive/
+- Notion Portfolio: {{ site.vibha.portfolio_link }}
 
-# Education
-- Vanderbilt University
-
-# Work History
-- Workplace 1
-- Workplace 2

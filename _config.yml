@@ -8,24 +8,18 @@
 title: Vibha Duraikkannan
 logo: docs/assets/vibha_headshot.jpg
 description: Electrical & Computer Engineering | Art | Digital Fabrication | Class of 2027
+
+# Use GitHub Pages' Minimal theme but we’ll override layout
 theme: jekyll-theme-minimal
 
-# Make pages appear in the top nav (Minimal theme uses this key)
 header_pages:
-  - index.md
   - about.md
-  - archive.md
+  - projects.md
 
-# Set up a "projects" collection so the archive auto-lists items
 collections:
   projects:
     output: true
     permalink: /projects/:name/
 
-# Site-wide variables you can reuse in pages
-vibha:
-  email_public: ""     # keep empty per assignment (no personal contact info)
-  portfolio_link: "https://dashing-zoo-35d.notion.site/Vibha-Duraikkannan-15efdd010c4d80469a55ecb271d67b92"
-
-# Optional: pretty links
 permalink: pretty
+

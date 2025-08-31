@@ -15,7 +15,7 @@ title: Home
 {% assign featured = site.projects | where: 'featured', true | sort: 'date' | reverse | slice: 0, 3 %}
 {% for p in featured %}
   <a class="card" href="{{ p.url | relative_url }}">
-    {% if p.thumbnail %}<img src="{{ p.thumbnail | relative_url }}" alt="">{{% endif %}}
+    {% if p.thumbnail %}<img src="{{ p.thumbnail | relative_url }}" alt="">{% endif %}
     <div class="pad">
       <h3>{{ p.title }}</h3>
       <p>{{ p.teaser | default: p.subtitle | default: p.description }}</p>

@@ -3,14 +3,23 @@ layout: default
 title: Home
 ---
 
-# Digital Fabrication Portfolio
-
-Welcome! This site documents my work for **Additive and Polymer-based Manufacturing / Digital Fabrication**, including training, projects, and process notes. It will evolve over the semester as I add portfolio items.
-
-<div style="display:grid; gap:12px; grid-template-columns: repeat(auto-fit, minmax(220px,1fr));">
-  <img src="/docs/assets/gallery/img1.jpg" alt="Gallery image 1">
-  <img src="/docs/assets/gallery/img2.jpg" alt="Gallery image 2">
-  <img src="/docs/assets/gallery/img3.jpg" alt="Gallery image 3">
+<div class="hero">
+  <h1>Example Web Page</h1>
+  <p>I’m Vibha Duraikkannan, an ECE × Art student exploring digital fabrication, interactive systems, and design.</p>
+  <a class="btn" href="{{ '/projects/' | relative_url }}">My Projects</a>
 </div>
 
-> Explore my growing **[Portfolio Archive](/archive/)** or jump to my **[Notion portfolio]({{ site.vibha.portfolio_link }})**.
+## Featured Projects
+
+<div class="grid">
+{% assign featured = site.projects | where: 'featured', true | sort: 'date' | reverse | slice: 0, 3 %}
+{% for p in featured %}
+  <a class="card" href="{{ p.url | relative_url }}">
+    {% if p.thumbnail %}<img src="{{ p.thumbnail | relative_url }}" alt="">{{% endif %}}
+    <div class="pad">
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.teaser | default: p.subtitle | default: p.description }}</p>
+    </div>
+  </a>
+{% endfor %}
+</div>

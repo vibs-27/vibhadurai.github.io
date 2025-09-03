@@ -26,6 +26,7 @@ Function: When the black button is pressed, the motion of the pump starts automa
 ## Final Design (Photo/Render)
 
 ![Final render of the assembled pump]({{ '/docs/assets/pump/pump_render.jpg' | relative_url }})
+![Final image of the assembled pump]({{ '/docs/assets/pump/pump_thumb.jpg' | relative_url }})
 
 ---
 

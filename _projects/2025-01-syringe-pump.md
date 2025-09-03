@@ -71,10 +71,10 @@ Function: When the black button is pressed, the motion of the pump starts automa
 ---
 
 ## Arduino Code
-Firmware lives in this repository here:  
-**➡ [Open the Arduino sketch](/code/syringe_pump/syringe_pump.ino)**
 
-> Put your `.ino` at `code/syringe_pump/syringe_pump.ino` (or change the link above to match where you upload it).
+- **Main UNO sketch:** **[syringe_pump.ino]({{ '/code/syringe_pump/syringe_pump.ino' | relative_url }})**
+- **ESP32 receiver:** **[esp32_receiver.ino]({{ '/code/syringe_pump/esp32_receiver.ino' | relative_url }})**
+- **ESP32 transmitter:** **[esp32_transmitter.ino]({{ '/code/syringe_pump/esp32_transmitter.ino' | relative_url }})**
 
 ---
 

@@ -13,7 +13,7 @@ This portfolio showcases some of my projects so far, and I’m looking forward t
 - **Vanderbilt University**, B.E. ECE & B.A. Art (Expected 2027)
 
 ## Work Experience
-- Design/Marketing Intern — Mamaya Health  
+- Design/Marketing Intern - Mamaya Health  
 - Student Graphic Designer - Vanderbilt Student Affairs
 - Costume Shop Assistant - Vanderbilt University Theatre
 - Visualizing Virology Fellow - Vanderbilt Institute For Infection Immunology And Inflammation 

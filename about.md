@@ -19,7 +19,7 @@ This portfolio showcases some of my projects so far, and I’m looking forward t
 - Visualizing Virology Fellow - Vanderbilt Institute For Infection Immunology And Inflammation 
 
 ## Technical Skills
-**CAD:** Fusion 360
+**CAD:** Fusion 360</p>
 **Design:** Figma, Adobe Creative Suite (Illustrator, Indesign, Photoshop)
 **Code:** Python, C/C++, Processing/Java  
 **Digital Fabrication Tools:** 3D printing, Laser Cutting

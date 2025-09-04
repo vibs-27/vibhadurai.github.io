@@ -21,6 +21,6 @@ This portfolio showcases some of my projects so far, and I’m looking forward t
 ## Technical Skills
 **CAD:** Fusion 360</p>
 **Design:** Figma, Adobe Creative Suite (Illustrator, Indesign, Photoshop)</p>
-**Code:** Python, C/C++, Processing/Java</p>  
+**Code:** Python, C++, Processing, Java</p>  
 **Digital Fabrication Tools:** 3D printing, Laser Cutting</p>
 ## Awards / Publications

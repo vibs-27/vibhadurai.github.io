@@ -12,7 +12,7 @@ This portfolio showcases some of my projects so far, and I’m looking forward t
 ## Education
 - **Vanderbilt University**, B.E. ECE & B.A. Art (Expected 2027)
 
-## Work Experience (selected)
+## Work Experience
 - Design/Marketing Intern — Mamaya Health  
 - Student Graphic Designer - Vanderbilt Student Affairs
 - Costume Shop Assistant - Vanderbilt University Theatre

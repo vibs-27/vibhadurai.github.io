@@ -114,6 +114,3 @@ position, to pause the syringe flip the syringe to the off position.
 
 ---
 
-## Files & Links
-- CAD (Fusion 360): https://a360.co/4hypyPY   
-- Firmware: **[syringe_pump.ino](/code/syringe_pump/syringe_pump.ino)**  

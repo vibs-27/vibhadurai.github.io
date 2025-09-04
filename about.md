@@ -5,7 +5,7 @@ title: About
 
 # About
 
-I’m a thurd year Vanderbilt student studying Electrical and Computer Engineering and Art, and I love finding ways to bring creativity and technology together. I’m passionate about user-centered design, graphic design, and product design. I am always excited to learn, experiment, and grow as a designer.
+I’m a third year Vanderbilt student studying Electrical and Computer Engineering and Art, and I love finding ways to bring creativity and technology together. I’m passionate about user-centered design, graphic design, and product design. I am always excited to learn, experiment, and grow as a designer.
 
 This portfolio showcases some of my projects so far, and I’m looking forward to continuing to explore, improve, and take on new challenges!
 

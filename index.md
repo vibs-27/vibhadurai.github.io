@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="hero">
-  <h1>Example Web Page</h1>
+  <h1>Vibha Duraikkannan</h1>
   <p>Vibha Duraikkannan is a third year Vanderbilt student studying Electrical and Computer Engineering and Art. She loves finding ways to bring creativity and technology together. She is passionate about user-centered design, graphic design, and product design. She is always excited to learn, experiment, and grow as a designer!</p>
   <a class="btn" href="{{ '/projects/' | relative_url }}">My Projects</a>
 </div>

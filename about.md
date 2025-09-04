@@ -24,6 +24,3 @@ This portfolio showcases some of my projects so far, and I’m looking forward t
 **Code:** Python, C/C++, Processing/Java  
 **Digital Fabrication Tools:** 3D printing, Laser Cutting
 ## Awards / Publications
-- *(add as relevant)*
-
-> Security note: I don’t list personal contact details here.

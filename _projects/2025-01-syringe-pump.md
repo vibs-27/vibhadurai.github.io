@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Syringe Pump
-subtitle: 3D Printed
-teaser: 3D printed syringe pump with Fusion 360 + Arduino control.
-date: 2025-01-20
+subtitle: 3D Printing
+teaser: 3D printed syringe pump.
+date: Fall 2024
 thumbnail: /docs/assets/pump/pump_thumb.jpg
 featured: true
 ---

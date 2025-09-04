@@ -32,41 +32,37 @@ Function: When the black button is pressed, the motion of the pump starts automa
 
 ## Off-the-Shelf Parts
 
-| Item | Qty | Notes |
+| Item | Qty |
 |---|---:|---|
-| Arduino Uno (ATmega-based) | 1 | Main controller driving stepper + UI |
-| ESP32 dev boards | 2 | One transmitter + one receiver for remote start/pause |
-| Stepper motor (NEMA-17 class) | 1 | Drives the pump via step/dir control and microstepping |
-| Stepper driver (A4988/DRV8825/TMC-type) | 1 | Microstep pins tied for 1/16 step (≈3200 steps/rev) |
-| Lead screw + matching nut | 1 set | Converts motor rotation to linear motion |
-| 12 V DC power supply | 1 | Feeds Arduino + stepper (logic rails also derived from 5 V) |
-| 5 V rail / regulator (buck or equivalent) | 1 | Powers ESP32s and driver logic from 5 V |
-| Limit (latch) switch | 1 | End-of-travel detection and stop |
-| Momentary push buttons | 5 | Forward, reverse, start/pause, syringe size select, flow-rate-source |
-| Potentiometer (panel-mount) | 1 | Sets flow rate in “knob” mode |
-| RGB or bi-color LED + resistors | 1 set | Green = running, yellow = paused (mix), red = end |
-| I²C LCD module | 1 | Status messages (LiquidCrystal_I2C in code) |
-| Breadboard / perfboard + jumper wires | 1 | For wiring the UI + logic |
-| Micro-USB cable | 1 | Powers the transmitter remote during prototyping |
-| Assorted M-fasteners/washers | — | General assembly |
-| Syringes (10 mL and 20 mL) | 1 each | Two supported sizes |
+| Arduino Uno | 1 |
+| ESP32 dev boards | 2 |
+| Stepper motor | 1 | 
+| Stepper driver | 1 | 
+| Lead screw + matching nut | 1 set |
+| 12 V DC power supply | 1 |
+| 5 V rail | 1 |
+| Limit switch | 1 |
+| Momentary push buttons | 5 |
+| Potentiometer | 1 |
+| RGB LED + resistors | 1 set |
+| I²C LCD module | 1 |
+| Breadboard + jumper wires | 1 |
+| Micro-USB cable | 1 |
+| M-fasteners/washers | — |
+| Syringes (10 mL and 20 mL) | 1 each |
 
 
 ---
 
 ## 3D-Printed Parts
 
-| Part | Qty | Recommended Material | Notes |
+| Part | Qty | Recommended Material |
 |---|---:|---|---|
-| Stationary support panel (with latch pocket) | 1 | PLA/PETG | Holds syringe body; integrates the end-stop latch |
-| Moving carriage (plunger holder) | 1 | PETG | Travels on lead-screw nut; carries plunger |
-| Syringe holder inserts — 10 mL / 20 mL | 1 + 1 | PLA/PETG | Dual positions to swap sizes without tools |
-| Motor mounting plate | 1 | ABS (heat-tolerant) | Sits near stepper; spec calls for higher-temp material |
-| Base/side rails or frame members | 2+ | PLA/PETG | Main chassis pieces |
-| Belt/lead-screw nut capture & small brackets | as needed | PLA/PETG | Hardware capture, alignment |
-| Electronics enclosure (main) | 1 | PLA | Protects breadboard/electronics; tight passthroughs |
-| Remote controller box (transmitter) | 1 | PLA | Printed handheld housing for switch/ESP32 |
-| Top/bottom lids, covers, feet | as needed | PLA | Finish parts / service access |
+| Stationary Support Panel | 1 | ABS |
+| Moving Carriage | 1 | ABS |
+| Motor Mounting Plate | 1 | ABS |
+| Electronics Enclosure| 1 | PLA |
+| Remote Controller Box | 1 | PLA |
 
 ---
 
@@ -76,11 +72,9 @@ Function: When the black button is pressed, the motion of the pump starts automa
 - **ESP32 receiver:** **[esp32_receiver.ino]({{ 'esp32_receiver.ino' | relative_url }})**
 - **ESP32 transmitter:** **[esp32_transmitter.ino]({{ 'esp32_receiver.ino' | relative_url }})**
 
-esp32_receiver.ino
-
--  [syringe_pump.ino]({{ '/code/syringe_pump/syringe_pump.ino' | relative_url }}) ·
-  [esp32_receiver.ino]({{ '/code/syringe_pump/esp32_receiver.ino' | relative_url }}) ·
-  [esp32_transmitter.ino]({{ '/code/syringe_pump/esp32_transmitter.ino' | relative_url }})
+[Main Syringe Pump Code](https://github.com/vibs-27/vibhadurai.github.io/blob/main/syringe_pump.ino)
+[ESP32 Receiver](https://github.com/vibs-27/vibhadurai.github.io/blob/main/esp32_receiver.ino)
+[ESP32 Transmitter](https://github.com/vibs-27/vibhadurai.github.io/blob/main/esp32_transmitter.ino)
 
 ---
 

@@ -23,7 +23,7 @@ Function: When the black button is pressed, the motion of the pump starts automa
 
 ---
 
-## Final Design (Photo/Render)
+## Final Design (Render/Photo)
 
 ![Final render of the assembled pump]({{ '/docs/assets/pump/pump_render.jpg' | relative_url }})
 ![Final image of the assembled pump]({{ '/docs/assets/pump/pump_thumb.jpg' | relative_url }})
@@ -32,49 +32,45 @@ Function: When the black button is pressed, the motion of the pump starts automa
 
 ## Off-the-Shelf Parts
 
-| Item | Qty |
-|---|---:|---|
-| Arduino Uno | 1 |
-| ESP32 dev boards | 2 |
-| Stepper motor | 1 | 
-| Stepper driver | 1 | 
-| Lead screw + matching nut | 1 set |
-| 12 V DC power supply | 1 |
-| 5 V rail | 1 |
-| Limit switch | 1 |
-| Momentary push buttons | 5 |
-| Potentiometer | 1 |
-| RGB LED + resistors | 1 set |
-| I²C LCD module | 1 |
-| Breadboard + jumper wires | 1 |
-| Micro-USB cable | 1 |
-| M-fasteners/washers | — |
-| Syringes (10 mL and 20 mL) | 1 each |
+| Item                                | Qty   |
+|-------------------------------------|------:|
+| Arduino Uno                         |     1 |
+| ESP32 dev boards                    |     2 |
+| Stepper motor                       |     1 |
+| Stepper driver                      |     1 |
+| Lead screw + matching nut           | 1 set |
+| 12 V DC power supply                |     1 |
+| 5 V rail                            |     1 |
+| Limit switch                        |     1 |
+| Momentary push buttons              |     5 |
+| Potentiometer                       |     1 |
+| RGB LED + resistors                 | 1 set |
+| I²C LCD module                      |     1 |
+| Breadboard + jumper wires           |     1 |
+| Micro-USB cable                     |     1 |
+| M-fasteners/washers                 |     — |
+| Syringes (10 mL and 20 mL)          | 1 each |
 
 
 ---
 
 ## 3D-Printed Parts
 
-| Part | Qty | Recommended Material |
-|---|---:|---|---|
-| Stationary Support Panel | 1 | ABS |
-| Moving Carriage | 1 | ABS |
-| Motor Mounting Plate | 1 | ABS |
-| Electronics Enclosure| 1 | PLA |
-| Remote Controller Box | 1 | PLA |
+| Part                     | Qty | Recommended Material |
+|--------------------------|----:|----------------------|
+| Stationary Support Panel |   1 | ABS                  |
+| Moving Carriage          |   1 | ABS                  |
+| Motor Mounting Plate     |   1 | ABS                  |
+| Electronics Enclosure    |   1 | PLA                  |
+| Remote Controller Box    |   1 | PLA                  |
 
 ---
 
 ## Arduino Code
 
-- **Main UNO sketch:** **[syringe_pump.ino]({{ 'syringe_pump.ino' | relative_url }})**
-- **ESP32 receiver:** **[esp32_receiver.ino]({{ 'esp32_receiver.ino' | relative_url }})**
-- **ESP32 transmitter:** **[esp32_transmitter.ino]({{ 'esp32_receiver.ino' | relative_url }})**
-
-[Main Syringe Pump Code](https://github.com/vibs-27/vibhadurai.github.io/blob/main/syringe_pump.ino)
-[ESP32 Receiver](https://github.com/vibs-27/vibhadurai.github.io/blob/main/esp32_receiver.ino)
-[ESP32 Transmitter](https://github.com/vibs-27/vibhadurai.github.io/blob/main/esp32_transmitter.ino)
+- [Main Syringe Pump Code](https://github.com/vibs-27/vibhadurai.github.io/blob/main/syringe_pump.ino)
+- [ESP32 Receiver](https://github.com/vibs-27/vibhadurai.github.io/blob/main/esp32_receiver.ino)
+- [ESP32 Transmitter](https://github.com/vibs-27/vibhadurai.github.io/blob/main/esp32_transmitter.ino)
 
 ---
 

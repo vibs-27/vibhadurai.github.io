@@ -10,7 +10,10 @@ I’m a third year Vanderbilt student studying Electrical and Computer Engineeri
 This portfolio showcases some of my projects so far, and I’m looking forward to continuing to explore, improve, and take on new challenges!
 
 ## Education
-- **Vanderbilt University**, B.E. ECE & B.A. Art (Expected 2027)
+Vanderbilt University (Expected 2027)
+Bachelor of Engineering
+Double Major in Electrical and Computer Engineering & Art, Minor in Digital Fabrication
+Cumulative GPA: 3.797
 
 ## Work Experience
 - Design/Marketing Intern - Mamaya Health  

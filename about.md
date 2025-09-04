@@ -22,8 +22,8 @@ Cumulative GPA: 3.797
 - Visualizing Virology Fellow - Vanderbilt Institute For Infection Immunology And Inflammation 
 
 ## Technical Skills
-**CAD:** Fusion 360</p>
-**Design:** Figma, Adobe Creative Suite (Illustrator, Indesign, Photoshop)</p>
-**Code:** Python, C++, Processing, Java</p>  
-**Digital Fabrication Tools:** 3D printing, Laser Cutting</p>
+**CAD:** Fusion 360
+**Design:** Figma, Adobe Creative Suite (Illustrator, Indesign, Photoshop)
+**Code:** Python, C++, Processing, Java 
+**Digital Fabrication Tools:** 3D printing, Laser Cutting
 ## Awards / Publications

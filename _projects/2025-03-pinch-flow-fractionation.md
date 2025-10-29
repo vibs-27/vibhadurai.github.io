@@ -27,11 +27,11 @@ The outlet boundaries for small and large particles and buffer flow were based o
 
 A problem proposed by this is that the buffer layer of fluid that carries no particles is much thicker than the stream of both small and large particles. Because of this, there is an unequal backpressure between the outlets, and the backflow from the buffer layer to the large and small particle outlets disturbs the sorting. This was accounted for by increasing the resistance of the path to the particle outlets to create more equal resistances between the three paths.
 
-![Sketch Placeholder](/docs/assets/SketchDimensions.png)
+![Sketch Image]({{ '/docs/assets/SketchDimensions.png' | relative_url }})
 
 The final design consisted of a pinched segment with a width of 1.0 mm to accommodate particles up to 500 µm while maintaining laminar focusing. The broad channel expands to 40 mm over a 20 mm length, allowing clear spatial separation of small (125–150 µm) and large (425–500 µm) particles before reaching the outlets. Three 2.2 mm diameter outlet ports were positioned along the right edge of the device. The buffer channel was an 11 mm taper from 27.25 mm to 2.2 mm. The small and large particle outlets were placed at heights according to the calculated output positions, 37 mm and 30 mm from the base wall respectively. The channel length for the small and large particles was increased to 30 mm to increase resistance. The channels were extruded 1.5 mm tall in the mold.
 
-![Final Device Placeholder](/docs/assets/microfluidicDevicePrint.png)
+![Model]({{ /docs/assets/microfluidicDevicePrint.png' | relative_url }})
 
 In testing, the device did not function as expected because the flow was not purely laminar. The fluids experienced pressure differences in the broad section due to the siphoning effect. If the design were iterated, the abrupt jump from the 1 mm pinched section to the 40 mm broad section would be replaced with a longer, smooth taper to help control turbulent behavior.
 

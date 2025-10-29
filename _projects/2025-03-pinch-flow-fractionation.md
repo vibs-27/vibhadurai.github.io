@@ -9,85 +9,55 @@ thumbnail: docs/assets/MicrofluidicDeviceRendering.png
 featured: true
 ---
 
-# Pinch Flow Fractionation Microfluidic Device
+# Microfluidic Device
 
-## Purpose & Key Features
-This project investigates **pinch flow fractionation (PFF)** — a microfluidic method that separates particles by diameter based on laminar flow focusing near a channel wall. The focus is a **fully symmetric design**, eliminating geometric bias and emphasizing pure hydrodynamic separation.
+## Introduction
 
-**Key features**
-- Symmetric channel geometry → equal outlet hydraulic resistance
-- Designed in Fusion 360 based on PFF theoretical displacement
-- SLA resin-printed mold for PDMS casting
-- Ports sized for standard tubing (2.2 mm posts)
+Pinch flow fractionation is a method for separating particles by size using laminar flow, which is how fluids travel in smooth, parallel layers without mixing. This stands in contrast to turbulent flow, which is swirlier and more chaotic. Pinch flow fractionation takes advantage of this by squeezing a stream of particles through a pinch segment that spreads into different paths en route to separate outlets. This relatively simple concept has a wide and helpful range of applications, and this microfluidic sorter could be used to separate different-sized particles for things like biomedical testing or environmental sampling. For example, a paper from the National Library of Medicine explains how a spiral microfluidic device was used to separate bacterial cells from large debris in the field of food safety. In this study, the spiral device achieved an average bacterial recovery efficiency of around 80% for swab samples and 70% for ground-meat suspensions (National Library of Medicine).
 
 ---
 
-## Design Decisions
+## Design
 
-### Symmetric geometry
-A symmetric approach was used to simplify pressure-balancing across outlets.  
-This ensures separation performance reflects inherent PFF physics instead of geometric skew.
+A symmetric approach was taken to simplify the logic behind balancing the flow, as the paths have identical outlet resistance. This puts emphasis on particle separation from the PFF, without support or skewing from geometric asymmetry.
 
-### Outlet placement driven by PFF theory
-Outlet positions were selected using the **PFF equilibrium position equation**, which predicts particle heights after the expansion region.
+The outlet boundaries for small and large particles and buffer flow were based on the PFF equation, which calculates the expected vertical position after the expansion zone based on the particle diameter. Based on a pinched width of 1 mm and broad width of 40 mm, the small particles were expected to hit the top, with the large particles around the 6 mm to 7 mm range. The buffer outlets were then placed below this to collect the excess flow with no particles.
 
-With:
-- **Pinched width:** 1 mm  
-- **Broad width:** 40 mm  
+A problem proposed by this is that the buffer layer of fluid that carries no particles is much thicker than the stream of both small and large particles. Because of this, there is an unequal backpressure between the outlets, and the backflow from the buffer layer to the large and small particle outlets disturbs the sorting. This was accounted for by increasing the resistance of the path to the particle outlets to create more equal resistances between the three paths.
 
-Expected streamlines:
-- **Small particles:** near the top wall  
-- **Large particles:** ~6–7 mm below  
-- **Buffer fluid:** below both streams
+![Sketch Placeholder](docs/assets/SketchDimensions.png)
 
-### Addressing unequal outlet flows
-The buffer stream carries **more fluid** than small/large particle streams → higher flow → backflow risk into particle outlets.
+The final design consisted of a pinched segment with a width of 1.0 mm to accommodate particles up to 500 µm while maintaining laminar focusing. The broad channel expands to 40 mm over a 20 mm length, allowing clear spatial separation of small (125–150 µm) and large (425–500 µm) particles before reaching the outlets. Three 2.2 mm diameter outlet ports were positioned along the right edge of the device. The buffer channel was an 11 mm taper from 27.25 mm to 2.2 mm. The small and large particle outlets were placed at heights according to the calculated output positions, 37 mm and 30 mm from the base wall respectively. The channel length for the small and large particles was increased to 30 mm to increase resistance. The channels were extruded 1.5 mm tall in the mold.
 
-To equalize pressure losses:
-> **Flow resistance was increased for the small/large outlets** using longer outlet channels.
+![Final Device Placeholder](docs/assets/microfluidicDevicePrint.png)
 
-This produced **more uniform backpressures** and stabilized sorting.
+In testing, the device did not function as expected because the flow was not purely laminar. The fluids experienced pressure differences in the broad section due to the siphoning effect. If the design were iterated, the abrupt jump from the 1 mm pinched section to the 40 mm broad section would be replaced with a longer, smooth taper to help control turbulent behavior.
 
 ---
 
-## What I Would Improve in a Future Iteration
-- Increase vertical spacing between outlets to reduce crosstalk  
-- Taper particle outlets slightly to help maintain streamline isolation  
-- Add a **fourth bypass outlet** to bleed excess buffer volume  
-- Include **computational flow simulation** (e.g., COMSOL) to verify backpressure balancing upfront  
+## Instructions
+
+**Designing the model** – The mold was first designed in Autodesk Fusion with 50 mm × 75 mm base dimensions and 2.2 mm posts for the inlet and outlet ports. The model is designed as an inverse of the desired microfluidic device.
+
+**Printing** – The mold was resin printed on a Form 3+/4 SLA printer. The key at this stage was ensuring that the bottom of the mold was perfectly flat and parallel to the resin vat.
+
+**Post-printing** – The device was washed for 5 minutes in one machine and another 5 minutes in the second. The device then had to dry leaning upside down for 30 minutes before curing to prevent pooling of resin. Compressed air was then used to blow off any additional debris. The mold was finally cured for 1 minute to prevent warping from excess curing before removing the support material.
+
+**Mold to device** – To turn the mold into a functional device, PDMS was mixed at a 10:1 ratio, poured over the mold, and heat-cured overnight at ~55°C to avoid cracking or distortion from higher temperatures. After peeling the cured PDMS, the device and glass slide were plasma-treated and bonded together. Then, tubing was added and the device was primed under pressure to remove bubbles before running polyethylene (PE) beads through the system.
 
 ---
 
-## Fabrication Process (Resin Printing)
+## Discussion
 
-| Step | Description |
-|---:|---|
-| 1 | **Model design** in Fusion 360 as the negative mold |
-| 2 | **SLA resin print** on Form 3+/4 with flat base surface |
-| 3 | **IPA wash** — 5 min + 5 min |
-| 4 | **Dry upside-down** for 30 minutes to prevent pooling |
-| 5 | **Air blast** to clear channels |
-| 6 | **Short cure** (1 min) to minimize warping before removing supports |
-
-> After mold prep, PDMS can be cast, cured, plasma bonded, and tubed.
-
----
-
-## Final Device Image
-![Final PFF mold]({{ docs/assets/microfluidicDevicePrint.png }})
-
----
-
-## Operation Summary
-1. Introduce particle suspension + buffer into inlet  
-2. Flow enters pinched region and focuses particles along wall  
-3. Expansion region enables separation by size  
-4. Particles exit through dedicated small/large outlets  
-5. Buffer diverted through center outlet
+A benefit of PFF over traditional techniques like filtering in this example includes clog-free operation, in that there is no filter to trap particles. Furthermore, PFF allows for easy scaling to account for a wide range of sizes, from micron-level bacteria to cell clusters and beyond. The design can be scaled up or modified to handle a wider range of particle sizes by changing the width of the pinched section. The lower particle-size limit is set by when diffusion tolerances stop allowing for effective laminar flow.
 
 ---
 
 ## Files & Links
-- CAD Model *(upload to GitHub or Autodesk viewer link)*
+
+🔗 **Fusion 360 CAD Model** → (PASTE-LINK-HERE)
+References
+National Library of Medicine — Spiral microfluidic device for bacterial separation in food safety applications.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10415021/
 
 

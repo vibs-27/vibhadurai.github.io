@@ -19,7 +19,8 @@ Pinch flow fractionation is a method for separating particles by size using lami
 
 ## Design
 
-![Sketch Placeholder](/docs/assets/MicrofluidicDeviceRendering.png)
+![Sketch Placeholder]([/docs/assets/MicrofluidicDeviceRendering.png](https://github.com/vibs-27/vibhadurai.github.io/blob/4e6d96e0c34f70b2ff5bd51e25c6ec1c00138f8a/docs/assets/MicrofluidicDeviceRendering.png))
+
 A symmetric approach was taken to simplify the logic behind balancing the flow, as the paths have identical outlet resistance. This puts emphasis on particle separation from the PFF, without support or skewing from geometric asymmetry.
 
 The outlet boundaries for small and large particles and buffer flow were based on the PFF equation, which calculates the expected vertical position after the expansion zone based on the particle diameter. Based on a pinched width of 1 mm and broad width of 40 mm, the small particles were expected to hit the top, with the large particles around the 6 mm to 7 mm range. The buffer outlets were then placed below this to collect the excess flow with no particles.

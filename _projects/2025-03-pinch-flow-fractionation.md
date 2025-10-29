@@ -19,7 +19,7 @@ Pinch flow fractionation is a method for separating particles by size using lami
 
 ## Design
 
-![Sketch Placeholder]([/docs/assets/MicrofluidicDeviceRendering.png](https://github.com/vibs-27/vibhadurai.github.io/blob/4e6d96e0c34f70b2ff5bd51e25c6ec1c00138f8a/docs/assets/MicrofluidicDeviceRendering.png))
+![Final render]({{ '/docs/assets/MicrofluidicDeviceRendering.png' | relative_url }})
 
 A symmetric approach was taken to simplify the logic behind balancing the flow, as the paths have identical outlet resistance. This puts emphasis on particle separation from the PFF, without support or skewing from geometric asymmetry.
 

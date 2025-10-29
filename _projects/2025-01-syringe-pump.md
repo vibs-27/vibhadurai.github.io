@@ -3,7 +3,7 @@ layout: default
 title: Syringe Pump
 subtitle: 3D Printing
 teaser: 3D printed syringe pump.
-date: Fall 2024
+date: 2024-10-01
 thumbnail: /docs/assets/pump/pump_thumb.jpg
 featured: true
 ---

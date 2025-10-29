@@ -67,7 +67,7 @@ A benefit of PFF over traditional techniques like filtering in this example incl
 {% raw %}
 <div style="aspect-ratio:16/9; border:1px solid #eee; border-radius:10px; overflow:hidden; margin: 8px 0 16px;">
   <iframe 
-    src="https://a360.co/47zjFP7"
+    src="https://a360.co/3JmkZNi"
     width="100%" height="100%" allowfullscreen loading="lazy">
   </iframe>
 </div>

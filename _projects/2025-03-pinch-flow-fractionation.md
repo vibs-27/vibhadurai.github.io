@@ -5,7 +5,7 @@ subtitle: Resin-printed PFF device for size-based particle sorting
 teaser: Symmetric pinch flow fractionation device designed & fabricated using SLA printing.
 description: Exploring particle separation in a symmetric microfluidic geometry with resin-printed molds and PDMS casting.
 date: 2025-03-05
-thumbnail: /docs/assets/pff/pff_thumb.jpg
+thumbnail: docs/assets/MicrofluidicDeviceRendering.png
 featured: false
 ---
 
@@ -74,9 +74,7 @@ This produced **more uniform backpressures** and stabilized sorting.
 ---
 
 ## Final Device Image
-![Final PFF mold]({{ '/docs/assets/pff/pff_hero.jpg' | relative_url }})
-
-*(Replace with your actual picture or render once uploaded.)*
+![Final PFF mold]({{ docs/assets/microfluidicDevicePrint.png }})
 
 ---
 
@@ -91,6 +89,5 @@ This produced **more uniform backpressures** and stabilized sorting.
 
 ## Files & Links
 - CAD Model *(upload to GitHub or Autodesk viewer link)*
-- Fabrication Notes *(can link lab notebook or PDF)*
 
 

@@ -6,7 +6,7 @@ teaser: Symmetric pinch flow fractionation device designed & fabricated using SL
 description: Exploring particle separation in a symmetric microfluidic geometry with resin-printed molds and PDMS casting.
 date: 2025-03-05
 thumbnail: docs/assets/MicrofluidicDeviceRendering.png
-featured: false
+featured: true
 ---
 
 # Pinch Flow Fractionation Microfluidic Device

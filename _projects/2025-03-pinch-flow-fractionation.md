@@ -30,6 +30,10 @@ The outlet boundaries for small and large particles and buffer flow were based o
 A problem proposed by this is that the buffer layer of fluid that carries no particles is much thicker than the stream of both small and large particles. Because of this, there is an unequal backpressure between the outlets, and the backflow from the buffer layer to the large and small particle outlets disturbs the sorting. This was accounted for by increasing the resistance of the path to the particle outlets to create more equal resistances between the three paths.
 
 <p align="center">
+  <img src="{{ '/docs/assets/Image.jpeg' | relative_url }}" width="65%">
+</p>
+
+<p align="center">
   <img src="{{ '/docs/assets/SketchDimensions.png' | relative_url }}" width="65%">
 </p>
 

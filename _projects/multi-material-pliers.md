@@ -11,7 +11,7 @@ featured: true
 
 # Print in Place Parts
 
-Description of the project with a blurb about print-in-place parts. Perform external research to determine other applications print-in-place has been used for. What combinations of materials work well for print-in-place? 
+Print-in-place parts are designed in such a way that the moving parts are printed already assembled with no manual assembly needed. This has been utilized in both fun and functional ways, including chain mail and gear mechanisms. For example, expandable grabber arms can be built off of a series of hinges. Another approach is to print rigid sections in one material and flexible sections in another. For example, using a stiff PLA together with a rubbery TPU helps create hinges or joints that move freely without sticking. 
 
 ---
 

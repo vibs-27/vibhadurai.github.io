@@ -43,7 +43,7 @@ I decided to set the male end of the dovetails on the spring component so that t
   <img src="{{ '/docs/assets/PlierWriteUp/FirstSpringPrintSketch.png' | relative_url }}" width="65%">
 </p>
 
-For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with a 8% rectilinear pattern. 
+For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with a 8% rectilinear pattern. I found these walls to be a bit too flimsy and increased it to 1.4 mm in the next print. I also realized that this would be uncessarily large for the size of a resistor. For the dovetails, the oversize was too much for the fit, and I decreased to exact fit in the next print.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/ImageFirstSpring.jpeg' | relative_url }}" width="65%">
@@ -51,7 +51,11 @@ For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with
 
 ### Print 2
 
+I decreased the size of the spring to a 30 mm x 30 mm square and increased the wall thickness to 6. I found this to inhibit the movement of the square too much.
+
 ### Print 3
+
+My final square was a 30 mm square with 1.6 mm walls and a 4 wall perimeter. I found this to be the mest midpoint of stability and flexibility.
 
 
 <p align="center">
@@ -63,19 +67,21 @@ For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with
 
 ## Printing the Handles and the Mouth
 
-### Print 1
+### Fit
 
-### Print 2
+There were some fit issues in the first handle and mouth print. I decreased from a 0.1 mm over set to an exact fit, but found this to be a hair too loose. I found a goot midpoint at a 0.5 mm overset.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FitIssues.jpeg' | relative_url }}" width="65%">
 </p>
 
-### Print 3
+### Handle and Mouth Design
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/GrabberSketchZoomOut.png' | relative_url }}" width="65%">
 </p>
+
+The jaw length is 43 mm, which yield a jaw capacity of 10 mm. I added a slanted offset at the top of the mouth for easier grip on the resistors.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/HandleSketch.png' | relative_url }}" width="65%">
@@ -91,7 +97,7 @@ For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with
        width="70%">
 </p>
 
-Final project description.
+The final design was 130 mm end to end pliers and 10 mm height, with a jaw capacity of 10 mm. The spring was a 30 mm TPU square with a 4x4 grid of 1.6 mm walls. The hard components (the grabbers and handles) were printed in PLA. There were 4 seperate pieces in total attached using dovetail snap fits. 
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FinalCADHandlesGrabbers.png' | relative_url }}" width="65%">

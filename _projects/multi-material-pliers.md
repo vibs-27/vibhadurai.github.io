@@ -86,10 +86,16 @@ For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with
 ## The Final Design
 
 <p align="center">
-  <img src="{{ '/docs/assets/PlierWriteUp/FinalCADHandlesGrabbers.png' | relative_url }}" width="65%">
+  <img src="{{ '/docs/assets/PlierWriteUp/LargeGif - Made with Clipchamp.gif' | relative_url }}" 
+       alt="Multi-Material Pliers animation" 
+       width="70%">
 </p>
 
-Final project description. 
+Final project description.
+
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/FinalCADHandlesGrabbers.png' | relative_url }}" width="65%">
+</p>
 
 ---
 

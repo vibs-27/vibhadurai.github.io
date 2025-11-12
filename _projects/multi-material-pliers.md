@@ -16,6 +16,10 @@ Description of the project with a blurb about print-in-place parts. Perform exte
 
 I started the process by taking inspiration from two mechanisms of 3D printed pliers: squeeze pliers and pull pliers. I felt that the squeeze pliers would be the most effective at picking up the small resistors, especially when sized down to a suitable scale. For my first model, I mostly attempted to replicate the big picture shapes of the squeeze pliers and understand dovetail snaps. This model was presented in class for feedback. 
 
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/FirstCADCheckModel.png' | relative_url }}" width="65%">
+</p>
+
 ### What I learned from CAD Model 1
 
 I did not have to actually build the grid in CAD. The superslicer’s features can be taken advantage of to achieve the same result by removing the top and bottom layer and using a rectilinear pattern. Decreasing or increasing the infill modifies the number of boxes/dimensions of the grid. 
@@ -32,9 +36,21 @@ I started the printing process by printing just a spring and a sample bar of the
 
 I decided to set the male end of the dovetails on the spring component so that they could be essentially shoved into the male component for a tighter fit. I started with a 0.1 mm oversize on the male component to see how this would snap together. 
 
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/FirstSpringPrintSketch.png' | relative_url }}" width="65%">
+</p>
+
 For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with a 8% rectilinear pattern. 
 
 ### Print 2
+
+### Print 3
+
+
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/FinalSpringSketch.png' | relative_url }}" width="65%">
+</p>
+
 
 ---
 
@@ -46,9 +62,21 @@ For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with
 
 ### Print 3
 
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/GrabberSketchZoomOut.png' | relative_url }}" width="65%">
+</p>
+
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/HandleSketch.png' | relative_url }}" width="65%">
+</p>
+
 ---
 
 ## The Final Design
+
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/FinalCADHandlesGrabbers.png' | relative_url }}" width="65%">
+</p>
 
 Final project description. 
 

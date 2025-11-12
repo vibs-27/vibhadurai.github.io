@@ -1,9 +1,12 @@
 ---
-layout: project
+layout: default
 title: "Multi-Material Pliers"
-date: 2025-11-12
-cover_image: "{{ '/docs/assets/multi-material-pliers/PickingUpPlier.jpg' | relative_url }}"
+subtitle: In place multi material print-in-place pliers using TPU and PLA
+teaser: 
 description: "Design and fabrication of multi-material print-in-place pliers using TPU and PLA."
+date: 2025-11-12
+thumbnail: docs/assets/PlierWriteUp/Final Plier Image.jpeg
+featured: true
 ---
 
 # Print in Place Parts

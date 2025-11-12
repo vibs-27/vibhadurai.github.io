@@ -42,6 +42,10 @@ I decided to set the male end of the dovetails on the spring component so that t
 
 For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with a 8% rectilinear pattern. 
 
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/ImageFirstSpring.jpeg' | relative_url }}" width="65%">
+</p>
+
 ### Print 2
 
 ### Print 3
@@ -59,6 +63,10 @@ For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with
 ### Print 1
 
 ### Print 2
+
+<p align="center">
+  <img src="{{ '/docs/assets/PlierWriteUp/FitIssues.jpeg' | relative_url }}" width="65%">
+</p>
 
 ### Print 3
 

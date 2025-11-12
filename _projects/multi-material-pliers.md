@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Multi-Material Pliers"
-subtitle: In place multi material print-in-place pliers using TPU and PLA
+subtitle: In-place multi-material print-in-place pliers using TPU and PLA
 teaser: 
 description: "Design and fabrication of multi-material print-in-place pliers using TPU and PLA."
 date: 2025-11-12
@@ -11,23 +11,23 @@ featured: true
 
 # Print in Place Parts
 
-Description of the project with a blurb about print-in-place parts. Perform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place? 
+Description of the project with a blurb about print-in-place parts. Perform external research to determine other applications print-in-place has been used for. What combinations of materials work well for print-in-place? 
 
 ---
 
 ## CAD Iteration 1
 
-I started the process by taking inspiration from two mechanisms of 3D printed pliers: squeeze pliers and pull pliers. I felt that the squeeze pliers would be the most effective at picking up the small resistors, especially when sized down to a suitable scale. For my first model, I mostly attempted to replicate the big picture shapes of the squeeze pliers and understand dovetail snaps. This model was presented in class for feedback. 
+I started the process by taking inspiration from two mechanisms of 3D printed pliers: squeeze pliers and pull pliers. I felt that the squeeze pliers would be the most effective at picking up the small resistors, especially when sized down to a suitable scale. For my first model, I mostly attempted to replicate the big-picture shapes of the squeeze pliers and understand dovetail snaps. This model was presented in class for feedback. 
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FirstCADCheckModel.png' | relative_url }}" width="65%">
 </p>
 
-### What I learned from CAD Model 1
+### What I Learned from CAD Model 1
 
-I did not have to actually build the grid in CAD. The superslicer’s features can be taken advantage of to achieve the same result by removing the top and bottom layer and using a rectilinear pattern. Decreasing or increasing the infill modifies the number of boxes/dimensions of the grid. 
+I did not have to actually build the grid in CAD. The Superslicer’s features can be taken advantage of to achieve the same result by removing the top and bottom layers and using a rectilinear pattern. Decreasing or increasing the infill modifies the number of boxes/dimensions of the grid. 
 
-Instead of mirroring the dovetails on the sketch layer, mirroring in 3D allows for easier modification. This is more easily done when the spring is set up diagonally, so the handles and grabbers are symmetric across the x axis.  
+Instead of mirroring the dovetails on the sketch layer, mirroring in 3D allows for easier modification. This is more easily done when the spring is set up diagonally, so the handles and grabbers are symmetric across the x-axis.  
 
 ---
 
@@ -37,13 +37,13 @@ Instead of mirroring the dovetails on the sketch layer, mirroring in 3D allows f
 
 I started the printing process by printing just a spring and a sample bar of the corresponding hard component to understand the spring behavior and configure the dovetails.  
 
-I decided to set the male end of the dovetails on the spring component so that they could be essentially shoved into the male component for a tighter fit. I started with a 0.1 mm oversize on the male component to see how this would snap together. 
+I decided to set the male end of the dovetails on the spring component so that they could be essentially shoved into the female component for a tighter fit. I started with a 0.1 mm oversize on the male component to see how this would snap together. 
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FirstSpringPrintSketch.png' | relative_url }}" width="65%">
 </p>
 
-For the spring, I started with a 4 wall perimeter and 1.2 mm wall thickness with a 8% rectilinear pattern. I found these walls to be a bit too flimsy and increased it to 1.4 mm in the next print. I also realized that this would be uncessarily large for the size of a resistor. For the dovetails, the oversize was too much for the fit, and I decreased to exact fit in the next print.
+For the spring, I started with a 4-wall perimeter and 1.2 mm wall thickness with an 8% rectilinear pattern. I found these walls to be a bit too flimsy and increased it to 1.4 mm in the next print. I also realized that this would be unnecessarily large for the size of a resistor. For the dovetails, the oversize was too much for the fit, and I decreased to an exact fit in the next print.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/ImageFirstSpring.jpeg' | relative_url }}" width="65%">
@@ -55,13 +55,11 @@ I decreased the size of the spring to a 30 mm x 30 mm square and increased the w
 
 ### Print 3
 
-My final square was a 30 mm square with 1.6 mm walls and a 4 wall perimeter. I found this to be the mest midpoint of stability and flexibility.
-
+My final square was a 30 mm square with 1.6 mm walls and a 4-wall perimeter. I found this to be the best midpoint of stability and flexibility.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FinalSpringSketch.png' | relative_url }}" width="65%">
 </p>
-
 
 ---
 
@@ -69,7 +67,7 @@ My final square was a 30 mm square with 1.6 mm walls and a 4 wall perimeter. I f
 
 ### Fit
 
-There were some fit issues in the first handle and mouth print. I decreased from a 0.1 mm over set to an exact fit, but found this to be a hair too loose. I found a goot midpoint at a 0.5 mm overset.
+There were some fit issues in the first handle and mouth print. I decreased from a 0.1 mm overset to an exact fit but found this to be a hair too loose. I found a good midpoint at a 0.5 mm overset.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FitIssues.jpeg' | relative_url }}" width="65%">
@@ -81,7 +79,7 @@ There were some fit issues in the first handle and mouth print. I decreased from
   <img src="{{ '/docs/assets/PlierWriteUp/GrabberSketchZoomOut.png' | relative_url }}" width="65%">
 </p>
 
-The jaw length is 43 mm, which yield a jaw capacity of 10 mm. I added a slanted offset at the top of the mouth for easier grip on the resistors.
+The jaw length is 43 mm, which yields a jaw capacity of 10 mm. I added a slanted offset at the top of the mouth for an easier grip on the resistors.
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/HandleSketch.png' | relative_url }}" width="65%">
@@ -97,7 +95,7 @@ The jaw length is 43 mm, which yield a jaw capacity of 10 mm. I added a slanted 
        width="70%">
 </p>
 
-The final design was 130 mm end to end pliers and 10 mm height, with a jaw capacity of 10 mm. The spring was a 30 mm TPU square with a 4x4 grid of 1.6 mm walls. The hard components (the grabbers and handles) were printed in PLA. There were 4 seperate pieces in total attached using dovetail snap fits. 
+The final design was 130 mm end-to-end pliers and 10 mm in height, with a jaw capacity of 10 mm. The spring was a 30 mm TPU square with a 4x4 grid of 1.6 mm walls. The hard components (the grabbers and handles) were printed in PLA. There were four separate pieces in total, attached using dovetail snap fits. 
 
 <p align="center">
   <img src="{{ '/docs/assets/PlierWriteUp/FinalCADHandlesGrabbers.png' | relative_url }}" width="65%">
@@ -117,5 +115,3 @@ The final design was 130 mm end to end pliers and 10 mm height, with a jaw capac
   </iframe>
   <p><em>Interactive Fusion 360 model of the Multi-Material Pliers</em></p>
 </div>
-
-

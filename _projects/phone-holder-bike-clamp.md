@@ -93,11 +93,11 @@ The spring and ball had a tendency to fly off when rotating the detent. To solve
 Four additional screw holes were added to attach the phone holder to the spinning detent piece. Originally, I planned to use heat set inserts, but I found that was actually unecessary and a press fit was sufficient to keep the parts securely together. 
 
 <p align="left">
-  <img src="{{ '/docs/assets/Phone Holder Images/FinalComponentsClamp.png' | relative_url }}" width="45%">
+  <img src="{{ '/docs/assets/Phone Holder Images/FinalComponentsClamp.png' | relative_url }}" width="55%">
 </p>
 
 <p align="right">
-  <img src="{{ '/docs/assets/Phone Holder Images/FinalComponentsDetent.png' | relative_url }}" width="45%">
+  <img src="{{ '/docs/assets/Phone Holder Images/FinalComponentsDetent.png' | relative_url }}" width="55%">
 </p>
 
 ---

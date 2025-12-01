@@ -10,6 +10,8 @@ featured: true
 
 # Phone Holder Bike Clamp
 
+Goal: Design a bike clamp for your phone that can rotate between horizontal and vertical. 
+
 <p align="center">
   <img src="{{ '/docs/assets/Phone Holder Images/RenderingImage.png' | relative_url }}" width="65%">
 </p>
@@ -52,8 +54,8 @@ A larger hole was indented from the base of the clamp to make space for a nut to
 ## The Detent
 
 A detent is a simple mechanism that switches between specific positions when a force is applied. The spinning detent controls the horizontal-to-vertical rotation of the phone holder and consists of two components:  
-1. the base (which holds the spring and ball bearing), and  
-2. the spinning circle (with inlets for the ball to click between).
+1. the base (which holds the spring and ball bearing)  
+2. the spinning circle (with inlets for the ball to click between)
 
 This setup worked well because it’s compact, reliable, and easy to iterate on. The first iteration of the detent had two holes in the spinning component, one for the vertical position and one for the horizontal position. The base was made up of a circle and rectangle inlet for the spinning component and the spring. 
 
@@ -71,24 +73,24 @@ The ball faced too much resistance between positions, so the inlet depth had to 
 </p>
 
 **Increasing Space for the Spring**  
-Both the height and width of the spring inlet had to be increased. The spring technically fit but would get stuck in the compressed position.
+Both the height and width of the spring inlet had to be increased to account for the 3D print. The spring technically fit but would get stuck in the compressed position.
 
 <p align="center">
   <img src="{{ '/docs/assets/Phone Holder Images/DetentSpin.png' | relative_url }}" width="40%">
 </p>
 
 **Increasing Inlet Number**  
-With only two inlets, the ball would sometimes overshoot. Increasing to eight evenly spaced inlets made switching positions more consistent.
+The distance between the inlets made it more difficult to correctly move between the positions. Instead, I increased the number to 8 evenly spaced inlets to make it more difficult for the ball to go off track.
 
 **Closing Off the Spring**  
-The spring and ball had a tendency to fly off when rotating the detent. To solve this, I enclosed the spring in a hole instead of an open channel and added a 0.2 mm inlet behind it.
+The spring and ball had a tendency to fly off when rotating the detent. To solve this, I enclosed the spring in a hole instead of an open channel and added a 0.2 mm inlet behind the spring to make space for this wall.
 
 <p align="center">
   <img src="{{ '/docs/assets/Phone Holder Images/SpringSectionAnalysis.png' | relative_url }}" width="50%">
 </p>
 
 **Connecting the Detent and Phone Holder**  
-Four additional screw holes were added to attach the phone holder to the spinning detent piece.
+Four additional screw holes were added to attach the phone holder to the spinning detent piece. Originally, I planned to use heat set inserts, but I found that was actually unecessary and a press fit was sufficient to keep the parts securely together. 
 
 <p align="left">
   <img src="{{ '/docs/assets/Phone Holder Images/FinalComponentsClamp.png' | relative_url }}" width="45%">
@@ -102,7 +104,7 @@ Four additional screw holes were added to attach the phone holder to the spinnin
 
 ## Phone Holder
 
-Instead of making a full phone case, I went with a T-structure for stability without unnecessary bulk. The T-structure was modeled around the exact dimensions of my phone (with the case on).
+Instead of making a full phone case, I went with a T-structure for stability without unnecessary bulk. The T-structure was modeled around the dimensions of my phone without the case on.
 
 ### Issues
 

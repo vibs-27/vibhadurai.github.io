@@ -30,8 +30,9 @@ The bike clamp is made of two components: a back and a front holding the detent 
 The first print was done with supports along the bottom, but these were extremely difficult to remove.
 
 <p align="center">
-  <img src="{{ '/docs/assets/phone-holder-bike-clamp/issue-print.jpg' | relative_url }}" width="65%">
+  <img src="{{ '/docs/assets/Phone Holder Images/ClampBase.png' | relative_url }}" width="65%">
 </p>
+
 
 The next print was done without supports and had no issues.
 

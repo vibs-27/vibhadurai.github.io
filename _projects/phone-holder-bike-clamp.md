@@ -34,7 +34,7 @@ The bike clamp is made of two components: a back and a front holding the detent 
 The first print was done with supports along the bottom, but these were extremely difficult to remove.
 
 <p align="center">
-  <img src="{{ '/docs/assets/Phone Holder Images/ClampBase.png' | relative_url }}" width="65%">
+  <img src="{{ '/docs/assets/Phone Holder Images/ClampBase.png' | relative_url }}" width="45%">
 </p>
 
 
@@ -44,7 +44,7 @@ The next print was done without supports and had no issues.
 A larger hole was indented from the base of the clamp to make space for a nut to hold the M3 screw serving as the axle. The 3mm diameter hole for the screw had to be increased to 3.2 mm to make enough space for the screw to fit through freely. 
 
 <p align="center">
-  <img src="{{ '/docs/assets/Phone Holder Images/ClampScrewHole.png' | relative_url }}" width="65%">
+  <img src="{{ '/docs/assets/Phone Holder Images/ClampScrewHole.png' | relative_url }}" width="45%">
 </p>
 
 ---
@@ -67,7 +67,7 @@ This setup worked well because it’s compact, reliable, and easy to iterate on.
 The ball faced too much resistance between positions, so the inlet depth had to be decreased.
 
 <p align="center">
-  <img src="{{ '/docs/assets/phone-holder-bike-clamp/detent-problem.jpg' | relative_url }}" width="65%">
+  <img src="{{ '/docs/assets/Phone Holder Images/DetentProblemHighlighted.png' | relative_url }}" width="65%">
 </p>
 
 **Increasing Space for the Spring**  
@@ -83,7 +83,7 @@ With only two inlets, the ball would sometimes overshoot. Increasing to eight ev
 **Closing Off the Spring**  
 The spring and ball had a tendency to fly off when rotating the detent. To solve this, I enclosed the spring in a hole instead of an open channel and added a 0.2 mm inlet behind it.
 
-<p align="left">
+<p align="center">
   <img src="{{ '/docs/assets/Phone Holder Images/SpringSectionAnalysis.png' | relative_url }}" width="65%">
 </p>
 
@@ -108,7 +108,7 @@ Instead of making a full phone case, I went with a T-structure for stability wit
 
 The first version didn’t account for the camera bump. Rather than redesigning the overall structure, I added a cutout for the camera. A 3 mm wall thickness gave the right balance of flexibility and support.
 
-<p align="right">
+<p align="center">
   <img src="{{ '/docs/assets/Phone Holder Images/PhoneHolderBase.png' | relative_url }}" width="65%">
 </p>
 
@@ -149,5 +149,5 @@ Four screw holes were added to attach the phone holder to the detent, including 
     frameborder="0"
     allowfullscreen>
   </iframe>
-  <p><em>Interactive Fusion 360 model of the Bike Phone Holder</em></p>
+  <p><em>Interactive CAD model of the Bike Phone Holder</em></p>
 </div>

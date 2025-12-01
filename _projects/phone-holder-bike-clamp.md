@@ -105,7 +105,7 @@ Four screw holes were added to attach the phone holder to the detent, including 
 
 <div style="text-align:center">
   <iframe
-    src="YOUR_FUSION_360_EMBED_URL"
+    src="https://a360.co/3KwFMhG"
     width="90%"
     height="540"
     frameborder="0"

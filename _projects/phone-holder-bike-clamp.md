@@ -138,7 +138,11 @@ Four screw holes were added to attach the phone holder to the detent, including 
 <p align="right">
   <img src="{{ '/docs/assets/Phone Holder Images/PhoneHolderFront.png' | relative_url }}" width="65%">
 </p>
-   
+
+<p align="center">
+  <img src="{{ '/docs/assets/Phone Holder Images/HolderTurningSmall.gif' | relative_url }}"
+       width="70%">
+</p>
 
 ---
 

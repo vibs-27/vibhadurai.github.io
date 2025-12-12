@@ -15,13 +15,27 @@ Generative design is a process that allows you to lightweight geometries and con
 
 ## Generative Design Skateboard
 
-In this project, generative design was applied to design a truck for an electric skateboard to hold the front wheels and the motor.
+In this project, generative design was applied to design a truck for an electric skateboard to hold the front wheels and the motor. The first step in this was establishing the preserve and obstacle geometries.
+
+<p align="center">
+  <img src="{{ '/docs/assets/PreserveGeometry.png' | relative_url }}" width="65%">
+</p>
+
+<p align="center">
+  <img src="{{ '/docs/assets/ObstacleGeometry.png' | relative_url }}" width="65%">
+</p>
+
 
 ---
 
 ## Applying Forces
 
 After setting up the areas of the design where material must be generated and where the part cannot be generated, the next step is applying expected forces so that the generative model can withstand its application. In the case of the skateboard truck, there were eight key forces.
+
+<p align="center">
+  <img src="{{ '/docs/assets/Forces.png' | relative_url }}" width="65%">
+</p>
+
 
 ### 1. Motor Weight  
 An 8.5 N remote force was applied downward at the motor’s center of mass and connected to the four motor mounting screw locations. This value was calculated from the motor mass (0.86 kg) using F = mg. The remote force accounts for the offset between the motor center of mass and the motor mounting plate.
@@ -55,14 +69,83 @@ The structural constraint was placed on the kingpin seat region because it is fi
 
 To verify that the generated model fit correctly, the part was first filament printed before carbon printing. The first print did not leave enough space to fit over the bearings during assembly, so the obstacle geometry was expanded to allow for proper clearance.
 
+<p align="center">
+  <img src="{{ '/docs/assets/3DPrint.jpeg' | relative_url }}" width="65%">
+</p>
+
+
+The final carbon print acounted for this.
+<p align="center">
+  <img src="{{ '/docs/assets/MotorMount.jpeg' | relative_url }}" width="65%">
+</p>
+
+<p align="center">
+  <img src="{{ '/docs/assets/AxleFit.jpeg' | relative_url }}" width="65%">
+</p>
+
+ <p align="center">
+  <img src="{{ '/docs/assets/FinalDesign.jpeg' | relative_url }}" width="65%">
+</p>
+
+<p align="center">
+  <img src="{{ '/docs/assets/FinalFit.jpeg' | relative_url }}" width="65%">
+</p>
+
+
 ---
 
 ## Comparison Between Materials
 
 The aluminum outcomes required less material due to the higher stiffness and yield strength of the material. As a result, the nylon design had thicker sections and more material to reach the same safety factor. The aluminum solution was able to generate a more open geometry with thinner structural members.
 
+<p align="center">
+  <img src="{{ '/docs/assets/NylonOutcome.png' | relative_url }}" width="65%">
+</p>
+
+<p align="center">
+  <img src="{{ '/docs/assets/AluminumResult.png' | relative_url }}" width="65%">
+</p>
+
 ---
 
 ## Generative Design: Pros and Cons
 
 Generative design is useful for identifying efficient structures and reducing unnecessary material, but it requires highly constrained and performance-driven parts to be most successful. The process is also extremely sensitive to small errors and can be very time-consuming. In this project, it was challenging to define obstacle geometry that both prevented interference and still allowed enough clearance to physically assemble the motor, belt, and wheels. Because of this, generative design is most effective as an early-stage tool that helps guide geometry rather than producing a fully fabrication-ready solution.
+
+---
+
+## CAD Models
+Generative Design Setup
+<div style="text-align:center">
+  <iframe
+    src="https://a360.co/3YmEB7J"
+    width="90%"
+    height="540"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+Aluminum Result
+<div style="text-align:center">
+  <iframe
+    src="https://a360.co/4oSlMnR"
+    width="90%"
+    height="540"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+Nylon Result
+<div style="text-align:center">
+  <iframe
+    src="https://a360.co/3YoODFn"
+    width="90%"
+    height="540"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
